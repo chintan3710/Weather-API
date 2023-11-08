@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins";
+    background-color: #adbb98;
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background: linear-gradient(150deg,
+            rgba(71, 231, 183, 1) 0%,
+            rgba(79, 124, 146, 1) 88%,
+            rgba(71, 75, 112, 1) 100%);
+    padding: 50px;
+    box-shadow: 0px 0px 10px 5px #ffffff;
+}
+.card input {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-right: 20px;
+}
+.card .search-field {
+    display: flex;
+    align-items: center;
+}
+.card .search-field button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.card .search-field i.fa-solid.fa-magnifying-glass {
+    color: #757575;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+}
+.card .card-body h2,
+.card .card-body h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1;
+}
+.card .card-body h3 {
+    font-size: 30px;
+    line-height: 1.8;
+}
+.card .card-body div i {
+    font-size: 30px;
+}
+.card .card-body div>p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-left: 15px;
+}
